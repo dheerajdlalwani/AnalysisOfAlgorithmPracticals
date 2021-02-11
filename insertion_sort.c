@@ -25,6 +25,9 @@ void insertionSort(int array[])
             j--;
         }
         array[j + 1] = temp;
+        printf("Pass %d: ", i);
+        printArray(array);
+        printf("\n");
     }
 }
 
@@ -40,16 +43,15 @@ int main()
         scanf("%d", &data[i]);
     }
 
-    printf("------- Array before sorting -------\n");
+    printf("\n------- Array before sorting -------\n");
     printArray(data);
-    printf("------- x ------- x ------- x -------\n");
+    printf("------- x ------- x ------- x -------\n\n");
 
     insertionSort(data);
 
     printf("------- Array after sorting -------\n");
     printArray(data);
-    printf("------- x ------- x ------- x -------\n");
-    printf("\n");
+    printf("------- x ------- x ------- x -------\n\n");
 
     return 0;
 }
