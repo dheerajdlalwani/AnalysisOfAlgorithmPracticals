@@ -12,5 +12,5 @@
 
 ### Assignment PDFs
 
-- [Insertion Sort](assignentPDF/InsertionSort.pdf)
-- [Seletion Sort](assignentPDF/SelectionSorts.pdf)
+- [Insertion Sort](assignmentPDF/InsertionSort.pdf)
+- [Seletion Sort](assignmentPDF/SelectionSorts.pdf)
