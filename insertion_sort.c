@@ -4,7 +4,6 @@ int data[MAX], n, i;
 
 void printArray(int array[])
 {
-    // int n = 10;
     for (i = 0; i < n; i++)
     {
         printf("| %d |", array[i]);
@@ -55,3 +54,4 @@ int main()
 
     return 0;
 }
+
