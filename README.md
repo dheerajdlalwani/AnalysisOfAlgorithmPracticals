@@ -2,5 +2,5 @@
 
 Code files from the practical sessions
 
-- [Insertion Sort](insertion_sort.c)
-- [Seletion Sort](selection_sort.c)
+- [Insertion Sort](code/InsertionSort.c)
+- [Seletion Sort](code/SelectionSorts.c)
