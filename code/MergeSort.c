@@ -73,6 +73,7 @@ void mergeSort(int array[], int l, int r)
         merge(array, l, mid, r);
         printf("Pass No. %d: ", pass);
         printArray(array);
+        printf("\n");
         pass++;
     }
 }
@@ -95,7 +96,7 @@ int main()
 
     mergeSort(data, 0, n - 1);
 
-    printf("\n------- Array after sorting -------\n");
+    printf("------- Array after sorting -------\n");
     printArray(data);
     printf("------- x ------- x ------- x -------\n\n");
 
